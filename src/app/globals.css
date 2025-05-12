@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 0 84.2% 60.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 0 84.2% 60.2%;
+    --radius: 0.5rem;
+    --crust-color-yellow1: #fdc831;
+    --crust-color-yellow2: #eeb923;
+    --crust-color-yellow3: #d6a929;
+    --crust-color-white: #fff;
+    --crust-color-black: #000;
+    --crust-color-blue: #7fb0e6;
+    --crust-color-red1: #da3327;
+    --crust-color-red2: #e6736b;
+    --crust-color-green1: #008040;
+    --crust-color-green2: #00e071;
+    --crust-color-gray1: #f7f7f8;
+    --crust-color-gray2: #eee;
+    --crust-color-neutral0: #faf9f8;
+    --crust-color-neutral1: #f5f3f0;
+    --crust-color-neutral2: #ebe9e6;
+    --crust-color-neutral3: #cccac8;
+    --crust-color-neutral4: #a3a2a0;
+    --crust-color-neutral5: #777675;
+    --crust-color-neutral6: #525150;
+    --crust-color-neutral7: #2e2d2d;
+    --crust-color-neutral8: #242323;
+    --crust-color-neutral9: #201e1e;
+  }
+
+  
+}
+
+@theme {
+
+  --color-crust-yellow1: #fdc831;
+  --color-crust-yellow2: #eeb923;
+  --color-crust-yellow3: #d6a929;
+  --color-crust-white: #fff;
+  --color-crust-black: #000;
+  --color-crust-blue: #7fb0e6;
+  --color-crust-red1: #da3327;
+  --color-crust-red2: #e6736b;
+  --color-crust-green1: #008040;
+  --color-crust-green2: #00e071;
+  --color-crust-gray1: #f7f7f8;
+  --color-crust-gray2: #eee;
+  --color-crust-neutral0: #faf9f8;
+  --color-crust-neutral1: #f5f3f0;
+  --color-crust-neutral2: #ebe9e6;
+  --color-crust-neutral3: #cccac8;
+  --color-crust-neutral4: #a3a2a0;
+  --color-crust-neutral5: #777675;
+  --color-crust-neutral6: #525150;
+  --color-crust-neutral7: #2e2d2d;
+  --color-crust-neutral8: #242323;
+  --color-crust-neutral9: #201e1e;
+}
+
+/* selection color */
+
+::selection {
+  background-color: var(--color-crust-yellow1);
+  color: var(--color-crust-neutral9);
+}
+
+html {
+  background-color: var(--color-crust-neutral1);
+}
+
+

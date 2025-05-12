@@ -1,0 +1,9 @@
+{
+    "name": "riccardoaltieri.com x Slice",
+    "short_name": "Slice",
+    "description": "Build your own pizza",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#f5f3f0",
+    "background_color": "#f5f3f0"
+}
